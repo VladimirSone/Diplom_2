@@ -3,6 +3,7 @@ import requests
 from url import Url
 from conftest import creating_user_and_delete
 from helpers import random_email, random_password, random_username
+from data import Ingredients
 
 
 class TestChangingUser:
